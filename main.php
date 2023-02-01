@@ -1,7 +1,5 @@
 <?php 
-$content = file_get_contents("./data.json");
-$audios = json_decode(file_get_contents("./data.json"));
-var_dump($content);
+$audios = json_decode(file_get_contents("./data.json"),true);
 var_dump($audios);
 foreach ($audios as $audio){
 echo "<div><h2>".$audio["nom"]."</h2>";
