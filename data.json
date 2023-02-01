@@ -1,7 +1,7 @@
 [
 {
 	"source":[
-                {"a":"Tappa10.WAV","t":"audio/wav"}
+                {"f":"Tappa10.WAV","t":"audio/wav"}
 	],
 	"img":"",
 	"nom":"Etape 10",
@@ -10,7 +10,7 @@
 },
 {
         "source":[
-                {"a":"Tappa1.WAV","t":"audio/wav"}
+                {"f":"Tappa1.WAV","t":"audio/wav"}
 	],
         "img":"",
         "nom":"Tappa 1",
