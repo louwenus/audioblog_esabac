@@ -1,4 +1,4 @@
-body{
+body {
 	background:cyan;
 	color:black;
 }
@@ -6,6 +6,18 @@ body{
 h1{
 	color:purple;
 }
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background: black;
+		color:white;
+	}
+	
+	h1{
+		color:violet;
+	}
+}
+
 .audio_container {
 	display: flex;
 }
