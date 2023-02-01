@@ -1,6 +1,6 @@
 <?php 
 echo "test";
-$audios = json_decode(file_get_contents("./data.json"),true);
+$audios = json_decode(file_get_contents("./data.json"));
 echo file_get_contents("./data.json");
 foreach ($audios as $audio){
 echo "<div><h2>".$audio["nom"]."</h2>";
