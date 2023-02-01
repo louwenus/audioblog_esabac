@@ -2,6 +2,7 @@
 <head>
 	<title>Audioblo - Senza donne niente storia</title>
 	<link rel="stylesheet" href="style.css">
+	<script src="jscript.js"></script> 
 </head>
 
 <body>
