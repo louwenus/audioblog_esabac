@@ -1,6 +1,6 @@
 <?php 
 $content = file_get_contents("./data.json");
-$audios = json_decode($content);
+$audios = json_decode('{"a":1,"b":2,"c":3,"d":4,"e":5}');
 echo $content;
 echo $audios;
 foreach ($audios as $audio){
