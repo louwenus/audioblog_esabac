@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <head>
 	<title>Audioblo - Senza donne niente storia</title>
 </head>
