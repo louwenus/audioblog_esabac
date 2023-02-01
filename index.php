@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 	<title>Audioblo - Senza donne niente storia</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
