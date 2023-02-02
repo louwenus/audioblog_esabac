@@ -119,7 +119,7 @@ label[for=toggle_darkmode]{
 	display: inline;
 	background-color: darkblue;}
 
-@media handheld {
+@media only screen and (max-device-width : 640px) {
 	  label[for=toggle_darkmode]{ width: 56px;}
 	  #toggle_darkmode:checked ~ label[for=toggle_darkmode] #star{
 		top:3px;
