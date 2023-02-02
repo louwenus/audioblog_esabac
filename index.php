@@ -7,13 +7,13 @@
 
 
 
-<input type="checkbox" id="toggle_darkmode">
+
 
 
 
 <body>
 	<h1>Senza donne niente storie</h1>
-
+	<input type="checkbox" id="toggle_darkmode">
 	<label for="toggle_darkmode">
   		<div id="star">
     		<div class="star" id="star-1">★</div>
