@@ -5,8 +5,24 @@
 	<script src="jscript.js"></script> 
 </head>
 
+
+
+<input type="checkbox" id="toggle_darkmode">
+
+
+
 <body>
 	<h1>Senza donne niente storie</h1>
+
+	<label for="toggle_darmode">
+  		<div id="star">
+    		<div class="star" id="star-1">★</div>
+    		<div class="star" id="star-2">★</div>
+  		</div>
+  		<div id="moon"></div>
+	</label>
+
+
 	<?php include('./main.php'); ?>
 
 
