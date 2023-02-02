@@ -1,8 +1,8 @@
 
 * {
 	color: black;
-	-webkit-transition: all 100ms linear;
-	transition: all 100ms linear; 
+	-webkit-transition: all 200ms linear;
+	transition: all 200ms linear; 
 }
 #toggle_darkmode:checked ~ * *,#toggle_darkmode:checked ~ *{
 	color: white;
@@ -25,8 +25,6 @@ h1{
 	height: 100%;
 	background-color: rgb(157, 233, 233);
 	z-index: -1;
-	-webkit-transition: all 100ms linear;
-	transition: all 100ms linear; 
 }
 #toggle_darkmode:checked ~ #background-color {
 	background-color: black;
