@@ -44,7 +44,7 @@ h1{
 label[for=toggle_darkmode]{
     display: block;
     position: absolute;
-    top: 10%;
+    top: 2vw;
     right: 1vw;
     left: auto;
     width: 116px;
@@ -118,5 +118,13 @@ label[for=toggle_darkmode]{
 #toggle_darkmode:checked ~ label[for=toggle_darkmode] #moon:before{
 	display: inline;
 	background-color: darkblue;}
+
+@media handheld {
+	  label[for=toggle_darkmode]{ width: 56px; }
+	  #toggle_darkmode:checked ~ label[for=toggle_darkmode] .star{
+		top:3px;
+		left:2px;
+	}
+}
 
 /*  darkmode button -- end */
