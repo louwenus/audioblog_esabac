@@ -13,6 +13,9 @@
 
 <body>
 	<input type="checkbox" id="toggle_darkmode">
+	<script>
+		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  			document.getElementById("toggle_darkmode").checked = true;}</script>
 	<div id="background-color"></div>
 	<h1>Senza donne niente storie</h1>
 	

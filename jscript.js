@@ -15,6 +15,3 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 //detect dark mode preference and auto toogle dark mode button
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-  document.getElementById("toggle_darkmode").checked = true;
-}
