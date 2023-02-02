@@ -106,12 +106,12 @@ label
     transition: 0.3s ease background-color;
 }
 
-#toggle_darkmode:checked + label
+#toggle_darkmode:checked ~ label[for=toggle_darkmode]
 {
     background-color: #000;
 }
 
-#toggle_darkmode:checked + label #star
+#toggle_darkmode:checked ~ label[for=toggle_darkmode] #star
 {
     top: 3px;
     left: 64px;
@@ -119,17 +119,17 @@ label
     background-color: yellow;
 }
 
-#toggle_darkmode:checked + label .star
+#toggle_darkmode:checked ~ label[for=toggle_darkmode] .star
 {
     color: yellow;
 }
 
-#toggle_darkmode:checked + label #moon
+#toggle_darkmode:checked ~ label[for=toggle_darkmode] #moon
 {
     bottom: 8px;
 }
 
-#toggle_darkmode:checked + label #moon:before
+#toggle_darkmode:checked ~ label[for=toggle_darkmode] #moon:before
 {
     background-color: #000;
 }
