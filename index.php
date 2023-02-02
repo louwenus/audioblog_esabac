@@ -10,9 +10,10 @@
 
 
 
-<input type="checkbox" id="toggle_darkmode">
-<body>
 
+<body>
+	<input type="checkbox" id="toggle_darkmode">
+	<div id="background-color"></div>
 	<h1>Senza donne niente storie</h1>
 	
 	<label for="toggle_darkmode">
