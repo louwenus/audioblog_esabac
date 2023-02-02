@@ -2,7 +2,7 @@
 * {
 	color: black;
 }
-#toggle_darkmode:checked ~ * {
+#toggle_darkmode:checked ~ * *,#toggle_darkmode:checked ~ *{
 	color: white;
 }
 
