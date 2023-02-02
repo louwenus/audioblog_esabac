@@ -14,7 +14,7 @@
 <body>
 	<h1>Senza donne niente storie</h1>
 
-	<label for="toggle_darmode">
+	<label for="toggle_darkmode">
   		<div id="star">
     		<div class="star" id="star-1">★</div>
     		<div class="star" id="star-2">★</div>
