@@ -21,7 +21,7 @@ h1{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: cyan;
+	background-color: rgb(157, 233, 233);
 	z-index: -1;
 	-webkit-transition: all 300ms linear;
 	transition: all 300ms linear; 
@@ -45,8 +45,8 @@ label[for=toggle_darkmode]{
     display: block;
     position: absolute;
     top: 10%;
-    right: 0;
-    left: 0;
+    right: 1wv;
+    left: auto;
     width: 116px;
     height: 56px;
     margin: 0 auto;
@@ -99,7 +99,6 @@ label[for=toggle_darkmode]{
     left: -17px;
     width: 40px;
     height: 40px;
-    display: none;
 	background-color: #77b5fe;
     border-radius: 50%;
     transition: 0.3s ease background-color;
