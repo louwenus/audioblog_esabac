@@ -99,7 +99,7 @@ label[for=toggle_darkmode]{
     left: -17px;
     width: 40px;
     height: 40px;
-    background-color:#03a9f4;
+    display: none;
     border-radius: 50%;
     transition: 0.3s ease background-color;
 }
@@ -115,6 +115,8 @@ label[for=toggle_darkmode]{
 
 #toggle_darkmode:checked ~ label[for=toggle_darkmode] #moon{bottom: 8px;}
 
-#toggle_darkmode:checked ~ label[for=toggle_darkmode] #moon:before{background-color: #000;}
+#toggle_darkmode:checked ~ label[for=toggle_darkmode] #moon:before{
+	display: inline;
+	background-color: darkblue;}
 
 /*  darkmode button -- end */
