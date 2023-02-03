@@ -6,13 +6,13 @@
 	"auteurs":"Sbriglio"
 },
 {
-        "source":"Tappa1",
+        "files":"Tappa1",
         "nom":"Tappa 1",
         "duree":"1:00",
         "auteurs":"Sbriglio"
 },
 {
-        "source":[""],
+        "files":"",
         "img":"",
         "nom":"",
         "duree":"",
