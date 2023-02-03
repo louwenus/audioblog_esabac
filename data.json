@@ -1,18 +1,12 @@
 [
 {
-	"source":[
-                {"f":"Tappa10.WAV","t":"audio/wav"}
-	],
-	"img":"",
+	"files":"Tappa10",
 	"nom":"Etape 10",
 	"duree":"1:00",
 	"auteurs":"Sbriglio"
 },
 {
-        "source":[
-                {"f":"Tappa1.WAV","t":"audio/wav"}
-	],
-        "img":"",
+        "source":"Tappa1.WAV",
         "nom":"Tappa 1",
         "duree":"1:00",
         "auteurs":"Sbriglio"
