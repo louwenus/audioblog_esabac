@@ -10,6 +10,7 @@ echo "
         <label for=\"".$audio["files"]."\" class=\"title-label\">
             <h2>".$audio["nom"]."</h2>
         </label>
+        <p>".file_get_contents("./desc/".$audio["files"].".txt")."</p>
         <audio controls>
             <source src=\"audio/".$audio["files"].".ogg\" type=\"audio/ogg\" >
             <source src=\"audio/".$audio["files"].".mp3\" type=\"audio/mp3\" >
