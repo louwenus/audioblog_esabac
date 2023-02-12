@@ -38,11 +38,11 @@ h1{
 
 input{display: none;}
 label {display: flex;}
-input:not(:checked) + div.audio_container audio {
+input:not(:checked) + div.audio_container div {
     display: none;
 }
 input:not(:checked) + div.audio_container label.img-label {
-    height: 10vw;
+    height: 7vw;
 }
 
 
