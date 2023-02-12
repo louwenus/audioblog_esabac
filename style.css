@@ -33,7 +33,7 @@ h1{
 	background-color: black;
 }
 
-input:not(:checked) + div.audio_container label.img-label {
+input:not(:checked) + div.audio_container label.img-label img{
     height: 7vw;
 }
 
