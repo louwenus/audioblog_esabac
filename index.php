@@ -6,11 +6,6 @@
 </head>
 
 
-
-
-
-
-
 <body>
 	<input type="checkbox" id="toggle_darkmode">
 	<div id="background-color"></div>

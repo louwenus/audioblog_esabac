@@ -36,10 +36,10 @@ h1{
 	display: flex;
 }
 
+input{display: none;}
 
 
 /*  darkmode button  */
-#toggle_darkmode{display: none;}
 
 label[for=toggle_darkmode]{
     display: block;
