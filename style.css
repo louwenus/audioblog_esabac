@@ -42,7 +42,7 @@ input:not(:checked) + div.audio_container audio {
     display: none;
 }
 label {
-    display: block;
+    display: flex;
 }
 
 /*  darkmode button  */

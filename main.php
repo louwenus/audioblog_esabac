@@ -4,8 +4,10 @@ foreach ($audios as $audio){
 echo "
     <input type=\"checkbox\" id=\"".$audio["files"]."\">
     <div class=\"audio_container\">
-        <label for=\"".$audio["files"]."\">
+        <label for=\"".$audio["files"]."\" class=\"img-label\">
             <img src=\"img/".$audio["files"].".jpg\">
+        </label>
+        <label for=\"".$audio["files"]."\" class=\"title-label\">
             <h2>".$audio["nom"]."</h2>
         </label>
         <audio controls>
