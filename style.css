@@ -38,6 +38,10 @@ h1{
 
 input{display: none;}
 
+input:checked + div.audio_container audio {
+    display: none;
+}
+
 
 /*  darkmode button  */
 
