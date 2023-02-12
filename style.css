@@ -41,7 +41,9 @@ input{display: none;}
 input:not(:checked) + div.audio_container audio {
     display: none;
 }
-
+label {
+    display: block;
+}
 
 /*  darkmode button  */
 
