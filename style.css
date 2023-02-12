@@ -38,7 +38,7 @@ h1{
 
 input{display: none;}
 label {display: flex;}
-input:not(:checked) + div.audio_container div {
+input:not(:checked) + div.audio_container div .to_hide {
     display: none;
 }
 input:not(:checked) + div.audio_container label.img-label {
