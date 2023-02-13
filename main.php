@@ -2,7 +2,7 @@
 $audios = json_decode(file_get_contents("./data.json"),true);
 foreach ($audios as $audio){
 echo "
-    <input type=\"checkbox\" id=\"".$audio["files"]."\">
+    <input type=\"radio\" id=\"".$audio["files"]."\" value=\"".$audio["files"]."\" name=\"radio-audio-group\">
     <div class=\"audio_container\">
         <label for=\"".$audio["files"]."\" class=\"img-label\">
             <img src=\"img/".$audio["files"].".jpg\">
