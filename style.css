@@ -36,6 +36,9 @@ h1{
 input:not(:checked) + div.audio_container label.img-label img{
     height: 7vw;
 }
+input:checked + div.audio_container label.img-label img{
+    height: 14vw;
+}
 
 .audio_container {
 	display: flex;
