@@ -48,7 +48,6 @@ input{display: none;}
 label {display: flex;}
 input:not(:checked) + div.audio_container div .to_hide {
     display: none;
-    opacity: 0;
 }
 
 
