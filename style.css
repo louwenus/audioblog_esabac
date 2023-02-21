@@ -34,10 +34,10 @@ h1{
 }
 
 input:not(:checked) + div.audio_container label.img-label img{
-    height: 7vw;
+    height: 30px;
 }
 input:checked + div.audio_container label.img-label img{
-    height: 14vw;
+    height: 60px;
 }
 
 .audio_container {
