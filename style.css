@@ -48,8 +48,8 @@ input:checked + div.audio_container label.img-label img{
 	height: 120px;}
 	input:checked + div.audio_container label.img-label img {
 	height:240px;}
-	h1 {font-size:150%;}
-	h2 {font-size:120%;}
+	h1 {font-size:300%;}
+	h2 {font-size:200%;}
 }
 
 .audio_container {
