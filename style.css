@@ -40,7 +40,7 @@ input:checked + div.audio_container label.img-label img{
     height: 120px;
 }
 /*for phones with high dpi*/
-@media only screen and (min-device-width : 320px) {
+@media only screen and (min-device-width : 400px) {
 	p {
 		font-size: 70%
 	}
@@ -48,6 +48,8 @@ input:checked + div.audio_container label.img-label img{
 	height: 120px;}
 	input:checked + div.audio_container label.img-label img {
 	height:240px;}
+	h1 {font-size:150%;}
+	h2 {font-size:120%;}
 }
 
 .audio_container {
