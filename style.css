@@ -41,15 +41,13 @@ input:checked + div.audio_container label.img-label img{
 }
 /*for phones with high dpi*/
 @media only screen and (min-device-width : 320px) {
-	p {
-		font-size: 15px;
-	}
+	p {font-size: 70%;}
 	input:not(:checked) + div.audio_container label.img-label img {
 	height: 120px;}
 	input:checked + div.audio_container label.img-label img {
 	height:240px;}
-	h1 {font-size:25px;}
-	h2 {font-size:17px;}
+	h1 {font-size:300%;}
+	h2 {font-size:200%;}
 }
 
 .audio_container {
