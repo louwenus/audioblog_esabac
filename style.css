@@ -40,7 +40,7 @@ input:checked + div.audio_container label.img-label img{
     height: 120px;
 }
 /*for phones with high dpi*/
-@media only screen and (min-device-width : 100px) {
+@media only screen and (min-device-width : 320px) {
 	p {
 		font-size: 70%
 	}
