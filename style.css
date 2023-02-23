@@ -39,6 +39,16 @@ input:not(:checked) + div.audio_container label.img-label img{
 input:checked + div.audio_container label.img-label img{
     height: 120px;
 }
+/*for phones with high dpi*/
+media only screen and (min-device-width : 640px) {
+	p {
+		font-size: 70%
+	}
+	input:not(:checked) + div.audio_container label.img-label img {
+	height: 120px;}
+	input:checked + div.audio_container label.img-label img {
+	height:240px;}
+}
 
 .audio_container {
 	display: flex;
@@ -140,8 +150,5 @@ label[for=toggle_darkmode]{
 
 	/*  darkmode button -- end */
 	}
-	/*autre style pour tel uniquement*/
-	p {
-		font-size: 70%;
-	}
 }
+	
