@@ -131,13 +131,17 @@ label[for=toggle_darkmode]{
 #toggle_darkmode:checked ~ label[for=toggle_darkmode] #moon:before{
 	display: inline;
 	background-color: darkblue;}
-
+/* bouton rond sur telephone */
 @media only screen and (max-device-width : 640px) {
 	  label[for=toggle_darkmode]{ width: 56px;}
 	  #toggle_darkmode:checked ~ label[for=toggle_darkmode] #star{
 		top:3px;
-		left:2px;
+		left:2px
+
+	/*  darkmode button -- end */
+	}
+	/*autre style pour tel uniquement*/
+	p {
+		font-size: 4px
 	}
 }
-
-/*  darkmode button -- end */
