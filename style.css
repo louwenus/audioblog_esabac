@@ -11,7 +11,7 @@
 a {color:blue;}
 #toggle_darkmode:checked ~ * a {color:cyan;}
 
-body {margin-bottom: 300px;}
+body {margin: 0 0 300px 0;}
 
 img {
     margin: 0.5vw;
