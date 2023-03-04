@@ -8,6 +8,9 @@
 	color: white;
 }
 
+a {color:blue;}
+#toggle_darkmode:checked ~ * a {color:cyan;}
+
 body {margin-bottom: 300px;}
 
 img {
