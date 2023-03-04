@@ -65,7 +65,7 @@ input:checked + div.audio_container label.img-label img{
 
 input{display: none;}
 label {display: flex; cursor: pointer;}
-label:checked{cursor: default;}
+input[type="radio"]:checked + div.audio_container label{cursor: default;}
 input:not(:checked) + div.audio_container div .to_hide {
     display: none;
 }
