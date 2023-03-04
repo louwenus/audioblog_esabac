@@ -35,8 +35,7 @@
 	<?php include('./main.php'); ?>
 
 	<div id="bottom">
-		<p>Le code de la page est sous licence <a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html">GPLV3+ ,</a></p>
-		<p>
+		<p>Le code de la page est sous licence <a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html">GPLV3+ ,</a><br>
 		Le contenu de la page est mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
 		Licence Creative Commons CC-BY-SA<img alt="" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a></p>
 	</div>
