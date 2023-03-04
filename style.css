@@ -67,6 +67,14 @@ input:not(:checked) + div.audio_container div .to_hide {
     display: none;
 }
 
+#bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
 
 
 /*  darkmode button  */

@@ -35,7 +35,9 @@
 	<?php include('./main.php'); ?>
 
 	<div id="bottom">
-		<p>Le code de la page est sous licsence GPLV3+, le contenu sous liscence  <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+		<p>Le code de la page est sous licence <a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html">GPLV3+</a>,
+		<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br/>
+		Le contenu de la page est mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+		Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 4.0 International</a>.</p>
 	</div>
-
 </body>
