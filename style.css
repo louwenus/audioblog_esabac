@@ -75,7 +75,9 @@ input:not(:checked) + div.audio_container > div > label > h2 {
 }
 .audio_container {
 	display: flex;
-	min-height: 300px;
+}
+input:checked + div.audio_container {
+	min-height: 500px;
 }
 
 input{display: none;}
