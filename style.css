@@ -68,7 +68,11 @@ input:not(:checked) + div.audio_container > div > label > h2 {
 	h1 {font-size:300%;}
 	h2 {font-size:200%;}
 }
+/* even bigger for little phones*/
+@media only screen and (max-device-width : 400px) {
+	p {font-size: 120%}
 
+}
 .audio_container {
 	display: flex;
 }
@@ -128,7 +132,7 @@ label[for=toggle_darkmode]{
     z-index: 1;
 }
 #star-1{position: relative;}
-
+				
 #star-2{position: absolute;
     transform: rotateZ(36deg);
 }
