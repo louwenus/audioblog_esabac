@@ -127,8 +127,8 @@ label[for=toggle_darkmode]{
     transform: rotateZ(36deg);
 }
 .star{
-    top: 5px;
-    left: -9px;
+    top: 0px;
+    left: -6px;
     font-size: 54px;
     line-height: 28px;
     color: #fafd0f;
