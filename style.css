@@ -22,9 +22,8 @@ h1{
 	color:purple;
     text-align:center
 }
-#toggle_darkmode:checked ~ h1 {color:magenta;}
 
-#toggle_darkmode:checked ~ h1{
+#toggle_darkmode:checked ~ div h1{
 	color:violet;
 }
 
@@ -51,6 +50,9 @@ input:not(:checked) + div.audio_container label.img-label img{
 }
 input:checked + div.audio_container label.img-label img{
     height: 120px;
+}
+input:not(:checked) + div.audio_container > div > h2 {
+    margin-bottom: 0;
 }
 /*for phones with high dpi*/
 @media (-webkit-min-device-pixel-ratio: 1.5), 
