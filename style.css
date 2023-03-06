@@ -22,6 +22,7 @@ h1{
 	color:purple;
     text-align:center
 }
+#toggle_darkmode:checked ~ h1 {color:magenta;}
 
 #toggle_darkmode:checked ~ h1{
 	color:violet;
