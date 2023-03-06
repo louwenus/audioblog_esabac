@@ -52,7 +52,7 @@ input:checked + div.audio_container label.img-label img{
     height: 120px;
 }
 input:not(:checked) + div.audio_container > div > label{
-    margin-bottom: 0;
+    margin-bottom: -10px;
 }
 input:not(:checked) + div.audio_container > div > label > h2 {
     margin-bottom: 0;
