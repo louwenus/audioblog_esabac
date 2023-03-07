@@ -24,7 +24,7 @@ h1{
     font-family: cursive;
 }
 
-#toggle_darkmode:checked ~ h1{
+#toggle_darkmode:checked ~ div h1{
 	color:violet;
 }
 
@@ -52,6 +52,12 @@ input:not(:checked) + div.audio_container label.img-label img{
 input:checked + div.audio_container label.img-label img{
     height: 120px;
 }
+input:not(:checked) + div.audio_container > div > label{
+    margin-bottom: -10px;
+}
+input:not(:checked) + div.audio_container > div > label > h2 {
+    margin-bottom: 0;
+}
 /*for phones with high dpi*/
 @media (-webkit-min-device-pixel-ratio: 1.5), 
 (min-resolution: 144dpi) {
@@ -63,9 +69,16 @@ input:checked + div.audio_container label.img-label img{
 	h1 {font-size:300%;}
 	h2 {font-size:200%;}
 }
+/* even bigger for little phones*/
+@media only screen and (max-device-width : 400px) {
+	p {font-size: 120%}
 
+}
 .audio_container {
 	display: flex;
+}
+input:checked + div.audio_container {
+	min-height: 500px;
 }
 
 input{display: none;}
@@ -123,13 +136,13 @@ label[for=toggle_darkmode]{
     z-index: 1;
 }
 #star-1{position: relative;}
-
+				
 #star-2{position: absolute;
     transform: rotateZ(36deg);
 }
 .star{
-    top: 5px;
-    left: -9px;
+    top: -1px;
+    left: -7px;
     font-size: 54px;
     line-height: 28px;
     color: #fafd0f;

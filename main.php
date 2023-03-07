@@ -14,6 +14,7 @@ echo "
             <div class=\"to_hide\">
                 ".file_get_contents("./desc/".$audio["files"].".html")."
             </div>
+            <p>Auteurs: ".$audio["auteurs"]."</p>
             <audio controls class=\"to_hide\">
                 <source src=\"audio/".$audio["files"].".ogg\" type=\"audio/ogg\" >
                 <source src=\"audio/".$audio["files"].".mp3\" type=\"audio/mp3\" >

@@ -23,14 +23,14 @@
 		<h1>Pas d'histoire sans les femmes !</h1>
 		<h1>Senza donne niente storie !</h1>
 		<p>62 élèves de première, terminale, terza et quarta superiore des sections bi-nationales Esabac du Lycée du Granier
-			(La Ravoire/Savoie) et du liceo linguistico Della Rovere (Savona/Ligurie) ouvrent un audio-blogue bi-lingue
-			en italien et en français, sur le thème : Niente storia senza le donne/Pas d'histoire sans les femmes !
-			Cet audio-blogue se présente sous la forme d'une série de portraits de femmes françaises et italiennes dont
-			le rôle et la place dans l'Histoire ont tardé à être reconnus.
-			Les élèves, en groupe de 4 (2 correspondant.e.s français et leurs deux correspondant.e.s italiens) ont créé
-			chacun.e deux portraits, avec l'aide de la journaliste radiophonique italienne Monica Lanfranco <a ref="http://www.monicalanfranco.it/">(http://www.monicalanfranco.it/)</a>
-			pour nous faire rencontrer 31 femmes aux destins peu ordinaires ... Un voyage au cours duquel se trame une prise de
-			conscience d'une Histoire commune à nos deux pays où les femmes, depuis bien longtemps, n'ont cessé d'être actrices !</p>
+		(La Ravoire/Savoie) et du liceo linguistico Della Rovere (Savona/Ligurie) ouvrent un audio-blogue bi-lingue
+		en italien et en français, sur le thème : Niente storia senza le donne/Pas d'histoire sans les femmes !
+		<br>Cet audio-blogue se présente sous la forme d'une série de portraits de femmes françaises et italiennes dont
+		le rôle et la place dans l'Histoire ont tardé à être reconnus.
+		Les élèves, en groupe de 4 (2 correspondant.e.s français et leurs deux correspondant.e.s italiens) ont créé
+		<br>chacun.e deux portraits, avec l'aide de la journaliste radiophonique italienne Monica Lanfranco <a ref="http://www.monicalanfranco.it/">(http://www.monicalanfranco.it/)</a>
+		pour nous faire rencontrer 31 femmes aux destins peu ordinaires ... Un voyage au cours duquel se trame une prise de
+		conscience d'une Histoire commune à nos deux pays où les femmes, depuis bien longtemps, n'ont cessé d'être actrices !</p>
 
 
 			<?php include('./main.php'); ?>
