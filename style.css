@@ -21,7 +21,7 @@ img {
 h1{
 	color:purple;
     text-align:center;
-    font-family: cursive;
+    font: cursive,bold;
 }
 
 #toggle_darkmode:checked ~ div h1{
