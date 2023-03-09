@@ -20,7 +20,9 @@ img {
 
 h1{
 	color:purple;
-    text-align:center
+    text-align:center;
+    font-family: cursive;
+    font-weight: bold;
 }
 
 #toggle_darkmode:checked ~ div h1{
