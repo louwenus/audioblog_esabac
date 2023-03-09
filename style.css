@@ -70,8 +70,8 @@ input:not(:checked) + div.audio_container > div > label > h2 {
 }
 /* even bigger for little phones*/
 @media only screen and (max-device-width : 400px) {
-	p {font-size: 120%}
-
+	p {font-size: 120%;}
+	h1 {font-size: 150%}
 }
 .audio_container {
 	display: flex;
