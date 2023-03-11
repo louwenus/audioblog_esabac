@@ -2,8 +2,8 @@
 une simple page internet en php/html/js pour servir un audioblog réalisé dans le cadre du cursus esabac
 
 ## License:
-Le code de la page est sous license GPLv3+
-Le contenu (textes et audios) sont sous license CC-BY-SA, crédités a leu auterus réspéctif
+Le code de la page est sous license [GPLv3+](https://www.gnu.org/licenses/gpl-3.0.html)
+Le contenu (textes et audios) sont sous [Licence Creative Commons CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/), crédités a leu auteurs réspéctif
 
 Le contenu est séparé de la manière suivante:
 
