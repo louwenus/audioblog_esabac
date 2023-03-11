@@ -15,3 +15,12 @@ style.css :
 
 main.php & data.json :
   - genere l'intégration des audios a partir des fichiers placées dans chaque répértoire
+
+desc :
+  - description de chaque audio au format html
+
+img :
+  - images du site et images des audios au format jpg
+
+audio :
+  - audios au format mp3 (codec mp3) et ogg (codec opus)
