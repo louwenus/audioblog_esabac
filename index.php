@@ -21,7 +21,7 @@
 	<img id="banner" src="img/banner.png"/>
 	<div id="content">
 		<h1>Pas d'histoire sans les femmes !</h1>
-		<h1>Senza donne niente storie !</h1>
+		<h1>Senza donne niente storia !</h1>
 		<p>62 élèves de première, terminale, terza et quarta superiore des sections bi-nationales Esabac du Lycée du Granier
 		(La Ravoire/Savoie) et du liceo linguistico Della Rovere (Savona/Ligurie) ouvrent un audio-blogue bi-lingue
 		en italien et en français, sur le thème : Niente storia senza le donne/Pas d'histoire sans les femmes !
