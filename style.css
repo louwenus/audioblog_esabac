@@ -90,7 +90,7 @@ input:not(:checked) + div.audio_container div .to_hide {
 }
 
 #bottom {
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
     text-align: center;
