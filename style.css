@@ -11,7 +11,7 @@
 a {color:blue;}
 #toggle_darkmode:checked ~ * a {color:cyan;}
 
-body {margin: 0 0 300px 0;}
+body {margin: 0;}
 #content {margin: 8px;}
 
 img {
@@ -90,11 +90,12 @@ input:not(:checked) + div.audio_container div .to_hide {
 }
 
 #bottom {
+    margin-top: 150px;
     /* position: fixed; 
     bottom: 0; */
     width: 100%;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     background-color: violet;
 }
 #toggle_darkmode:checked ~ #bottom {
