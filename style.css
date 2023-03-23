@@ -90,10 +90,11 @@ input:not(:checked) + div.audio_container div .to_hide {
 }
 
 #bottom {
-    /* position: fixed; */
-    bottom: 0;
+    /* position: fixed; 
+    bottom: 0; */
     width: 100%;
     text-align: center;
+    padding: 5px;
     background-color: violet;
 }
 #toggle_darkmode:checked ~ #bottom {
