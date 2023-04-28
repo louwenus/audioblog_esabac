@@ -26,13 +26,13 @@ h1{
 }
 
 #toggle_darkmode:checked ~ div h1{
-	color:violet;
+	color:rgb(161, 24, 161);
 }
 h2{
     color:purple;
 }
 #toggle_darkmode:checked ~ div h2 {
-    color:violet;
+    color:rgb(161, 24, 161);
 }
 
 #banner {
