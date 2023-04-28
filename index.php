@@ -28,7 +28,7 @@
 		<br>Cet audio-blogue se présente sous la forme d'une série de portraits de femmes françaises et italiennes dont
 		le rôle et la place dans l'Histoire ont tardé à être reconnus.
 		Les élèves, en groupe de 4 (2 correspondant.e.s français et leurs deux correspondant.e.s italiens) ont créé
-		<br>chacun.e deux portraits, avec l'aide de la journaliste radiophonique italienne Monica Lanfranco <a ref="http://www.monicalanfranco.it/">(http://www.monicalanfranco.it/)</a>
+		chacun.e deux portraits, avec l'aide de la journaliste radiophonique italienne Monica Lanfranco <a ref="http://www.monicalanfranco.it/">(http://www.monicalanfranco.it/)</a>
 		pour nous faire rencontrer 31 femmes aux destins peu ordinaires ... Un voyage au cours duquel se trame une prise de
 		conscience d'une Histoire commune à nos deux pays où les femmes, depuis bien longtemps, n'ont cessé d'être actrices !</p>
 
