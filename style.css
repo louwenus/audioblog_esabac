@@ -75,6 +75,7 @@ div.audio_container > * {
 }
 div.audio_container > img{
     max-height: 100%;
+    max-width: 100%;
     top: 0;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -126,6 +127,11 @@ div.audio_container > input[type="radio"]:checked + label{cursor: default;}
 	height:240px;}
 	h1 {font-size:300%;}
 	h2 {font-size:200%;}
+    div.podcast {
+        padding: 20px;
+        height: 460px;
+        width: 700px;
+    }
 }
 /* even bigger for little phones*/
 @media only screen and (max-device-width : 400px) {
