@@ -4,9 +4,10 @@ foreach ($audios as $audio){
 echo '
     <div class="podcast">
     <h2 class="title">'.$audio['nom'].'</h2>
-    <div class="audio_container">
-        <input type="radio" id="'.$audio['files'].'" value="'.$audio['files'].'" name="radio-audio-group">
-        <label for="'.$audio['files'].'">
+    <input type="radio" id="'.$audio['files'].'" value="'.$audio['files'].'" name="radio-audio-group">
+    <label for="'.$audio['files'].'">
+        <div class="audio_container">
+        
 
             <img src="img/'.$audio['files'].'.png">
             
@@ -21,7 +22,7 @@ echo '
                 </audio>
             </div>
 
-        </label>
-    </div></div>';
+        </div>
+    </label></div>';
 }
 ?>

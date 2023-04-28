@@ -28,6 +28,12 @@ h1{
 #toggle_darkmode:checked ~ div h1{
 	color:violet;
 }
+h2{
+    color:purple;
+}
+#toggle_darkmode:checked ~ div h2 {
+    color:violet;
+}
 
 #banner {
     margin: 0 0 0 0;
@@ -63,11 +69,11 @@ div.audio_container {
     width: 100%;
     height: 100%;
 }
-div.audio_container > label > * {
+div.audio_container > * {
     position: absolute;
     
 }
-div.audio_container > label > img{
+div.audio_container > img{
     max-height: 100%;
     top: 0;
     left: 50%;
@@ -75,16 +81,15 @@ div.audio_container > label > img{
     transform: translateX(-50%)
 }
 div.podcast >  h2.title {
-    color: purple;
     width: 100%;
 }
-#toggle_darkmode:checked ~ * div.podcast >  h2.title{
-	color: violet;
-}
-div.audio_container > input:not(:checked) +  label > div.to_hide > *:not(.title){
+input:not(:checked) +  label > div.audio_container > div.to_hide{
     opacity: 0;
 }
-div.audio_container > input:checked +  label > img {
+input:not(:checked) +  label > div.audio_container > div.to_hide > audio{
+    display: none;
+}
+input:checked +  label > div.audio_container > img {
     opacity: 0.35;
 }
 
@@ -192,7 +197,7 @@ label[for=toggle_darkmode]{
     border-radius: 50%;
     transition: 0.3s ease background-color;
 }
-#toggle_darkmode:checked ~ label[for=toggle_darkmode]{background-color: #0f1b3e;}
+#toggle_darkmode:checked ~ label[for=toggle_darkmode]{background-color: #16285b ;}
 
 #toggle_darkmode:checked ~ label[for=toggle_darkmode] #star{
     top: 3px;
@@ -206,7 +211,7 @@ label[for=toggle_darkmode]{
 
 #toggle_darkmode:checked ~ label[for=toggle_darkmode] #moon:before{
 	display: inline;
-	background-color: #0f1b3e;}
+	background-color: #16285b;}
 /* bouton rond sur telephone */
 @media only screen and (max-device-width : 640px) {
 	  label[for=toggle_darkmode]{ width: 56px;}
