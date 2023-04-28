@@ -46,48 +46,50 @@ h1{
 #toggle_darkmode:checked ~ #background-color {
 	background-color: black;
 }
-
-input:not(:checked) + div.audio_container label.img-label img{
-    height: 60px;
-}
-input:checked + div.audio_container label.img-label img{
-    height: 120px;
-}
-input:not(:checked) + div.audio_container > div > label{
-    margin-bottom: -10px;
-}
-input:not(:checked) + div.audio_container > div > label > h2 {
-    margin-bottom: 0;
-}
-/*for phones with high dpi*/
-@media (-webkit-min-device-pixel-ratio: 1.5), 
-(min-resolution: 144dpi) {
-	p {font-size: 70%;}
-	input:not(:checked) + div.audio_container label.img-label img {
-	height: 120px;}
-	input:checked + div.audio_container label.img-label img {
-	height:240px;}
-	h1 {font-size:300%;}
-	h2 {font-size:200%;}
-}
-/* even bigger for little phones*/
-@media only screen and (max-device-width : 400px) {
-	p {font-size: 120%;}
-	h1 {font-size: 150%}
-}
-.audio_container {
+#mainphp {
 	display: flex;
+    justify-content: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
-input:checked + div.audio_container {
-	min-height: 500px;
+div.audio_container {
+    padding: 10px;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    height: 200px;
+    width: 350px;
+    text-align: center;
+}
+div.audio_container > label > * {
+    position: absolute;
+    
+}
+div.audio_container > label > img{
+    max-height: 100%;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+div.audio_container > label > div > .title {
+    color: violet;
+    width: 100%;
+    -webkit-text-stroke: 0.5px black;
+}
+#toggle_darkmode:checked ~ * div.audio_container > label > div > .title{
+	color: violet;
+}
+div.audio_container > input:not(:checked) +  label > div.to_hide > *:not(.title){
+    opacity: 0;
+}
+div.audio_container > input:checked +  label > img {
+    opacity: 0.35;
 }
 
 input{display: none;}
-label {display: flex; cursor: pointer;}
-input[type="radio"]:checked + div.audio_container label{cursor: default;}
-input:not(:checked) + div.audio_container div .to_hide {
-    display: none;
-}
+label {cursor: pointer;}
+div.audio_container > input[type="radio"]:checked + label{cursor: default;}
 
 #bottom {
     margin-top: 150px;
@@ -107,6 +109,23 @@ input:not(:checked) + div.audio_container div .to_hide {
 }
 
 
+
+/*for phones with high dpi*/
+@media (-webkit-min-device-pixel-ratio: 1.5), 
+(min-resolution: 144dpi) {
+	p {font-size: 70%;}
+	input:not(:checked) + div.audio_container label.img-label img {
+	height: 120px;}
+	input:checked + div.audio_container label.img-label img {
+	height:240px;}
+	h1 {font-size:300%;}
+	h2 {font-size:200%;}
+}
+/* even bigger for little phones*/
+@media only screen and (max-device-width : 400px) {
+	p {font-size: 120%;}
+	h1 {font-size: 150%}
+}
 
 /*  darkmode button  */
 
