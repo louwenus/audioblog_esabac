@@ -6,7 +6,7 @@ echo '
         <input type="radio" id="'.$audio['files'].'" value="'.$audio['files'].'" name="radio-audio-group">
         <label for="'.$audio['files'].'">
 
-            <img src="img/'.$audio['files'].'.jpg">
+            <img src="img/'.$audio['files'].'.png">
             
             <div class="to_hide">
                 <h2 class="title">'.$audio['nom'].'</h2>
