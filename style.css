@@ -14,7 +14,7 @@ a {color:blue;}
 body {margin: 0;}
 #content {margin: 8px;}
 
-img {
+#bottom img {
     margin: 0.5vw;
 }
 
@@ -60,29 +60,30 @@ h2{
 }
 div.podcast {
     padding: 10px;
-    height: 230px;
+    height: fit-content;
     width: 350px;
     text-align: center;
 }
+div.podcast > h2.title {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    width: 100%;
+}
 div.audio_container {
     position: relative;
-    width: 100%;
-    height: 100%;
+    height: 200px;
 }
 div.audio_container > * {
     position: absolute;
-    
+    width: 100%;
 }
 div.audio_container > img{
-    max-height: 100%;
-    max-width: 100%;
+    object-fit: contain;
+    height: 100%;
     top: 0;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%)
-}
-div.podcast >  h2.title {
-    width: 100%;
 }
 input:not(:checked) +  label > div.audio_container > div.to_hide{
     opacity: 0;
@@ -120,7 +121,7 @@ div.audio_container > input[type="radio"]:checked + label{cursor: default;}
 /*for phones with high dpi*/
 @media (-webkit-min-device-pixel-ratio: 1.5), 
 (min-resolution: 144dpi) {
-	p {font-size: 70%;}
+	p {font-size: 80%;}
 	input:not(:checked) + div.audio_container label.img-label img {
 	height: 120px;}
 	input:checked + div.audio_container label.img-label img {
@@ -129,8 +130,10 @@ div.audio_container > input[type="radio"]:checked + label{cursor: default;}
 	h2 {font-size:200%;}
     div.podcast {
         padding: 20px;
-        height: 460px;
         width: 700px;
+    }
+    div.audio_container {
+        height: 300px;
     }
 }
 /* even bigger for little phones*/
