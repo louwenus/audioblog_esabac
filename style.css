@@ -158,22 +158,15 @@ label[for=toggle_darkmode]{
     overflow: hidden;
 }
 #star{
+    margin: 0;
     position: absolute;
-    top: 22px;
-    left: 13px;
+    top: 8px;
+    left: 11px;
     transform: scale(1);
-    border-radius: 50%;
+    width: 40px;
+    height: 40px;
     transition: 0.3s ease top, 0.3s ease left, 0.3s ease transform;
     z-index: 1;
-}
-#star-1{
-    position: relative;
-    top: -1px;
-    left: -7px;
-    font-size: 54px;
-    line-height: 28px;
-    color: #fafd0f;
-    transition: 0.3s ease color;
 }
 #moon{
     position: absolute;
@@ -199,11 +192,10 @@ label[for=toggle_darkmode]{
 #toggle_darkmode:checked ~ label[for=toggle_darkmode]{background-color: #16285b ;}
 
 #toggle_darkmode:checked ~ label[for=toggle_darkmode] #star{
-    top: 3px;
-    left: 64px;
+    top: -2px;
+    left: 56px;
     transform: scale(0.3);
 }
-#toggle_darkmode:checked ~ label[for=toggle_darkmode] #star-1{color: yellow;}
 
 #toggle_darkmode:checked ~ label[for=toggle_darkmode] #moon{bottom: 8px;}
 
@@ -211,11 +203,15 @@ label[for=toggle_darkmode]{
 	display: inline;
 	background-color: #16285b;}
 /* bouton rond sur telephone */
-@media only screen and (max-device-width : 640px) {
+@media (max-device-width : 640px) {
 	  label[for=toggle_darkmode]{ width: 56px;}
+      #star {
+        top:8px;
+        left:8px;
+      }
 	  #toggle_darkmode:checked ~ label[for=toggle_darkmode] #star{
-		top:3px;
-		left:2px
+		top:0;
+		left:-3px
 
 	/*  darkmode button -- end */
 	}

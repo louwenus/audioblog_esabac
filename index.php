@@ -11,9 +11,7 @@
 	<input type="checkbox" id="toggle_darkmode">
 	<div id="background-color"></div>
 	<label for="toggle_darkmode">
-  		<div id="star">
-    		<div id="star-1">&#10041;</div>
-  		</div>
+  		<img id="star" src="/img/etoile.png">
   		<div id="moon"></div>
 	</label>
 
