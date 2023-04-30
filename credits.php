@@ -27,7 +27,8 @@
         <?php 
             $audios = json_decode(file_get_contents("./data.json"),true);
             foreach ($audios as $audio){
-            echo '<h2 class=>'.$audio['nom'].'</h2>
+			if (file_exists('./credits/'.$audio['files'].'.html'))
+            	echo '<h2 class=>'.$audio['nom'].'</h2>
                  '.file_get_contents('./credits/'.$audio['files'].'.html');
             }
         ?>
