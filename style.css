@@ -159,22 +159,15 @@ label[for=toggle_darkmode]{
 }
 #star{
     position: absolute;
-    top: 13px;
+    top: 22px;
     left: 13px;
-    width: 30px;
-    height: 30px;
-    background-color: #fafd0f;
     transform: scale(1);
     border-radius: 50%;
-    transition: 0.3s ease top, 0.3s ease left, 0.3s ease transform, 0.3s ease background-color;
+    transition: 0.3s ease top, 0.3s ease left, 0.3s ease transform;
     z-index: 1;
 }
-#star-1{position: relative;}
-				
-#star-2{position: absolute;
-    transform: rotateZ(36deg);
-}
-.star{
+#star-1{
+    position: relative;
     top: -1px;
     left: -7px;
     font-size: 54px;
@@ -209,9 +202,8 @@ label[for=toggle_darkmode]{
     top: 3px;
     left: 64px;
     transform: scale(0.3);
-    background-color: yellow;
 }
-#toggle_darkmode:checked ~ label[for=toggle_darkmode] .star{color: yellow;}
+#toggle_darkmode:checked ~ label[for=toggle_darkmode] #star-1{color: yellow;}
 
 #toggle_darkmode:checked ~ label[for=toggle_darkmode] #moon{bottom: 8px;}
 

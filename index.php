@@ -12,8 +12,7 @@
 	<div id="background-color"></div>
 	<label for="toggle_darkmode">
   		<div id="star">
-    		<div class="star" id="star-1">★</div>
-    		<div class="star" id="star-2">★</div>
+    		<div id="star-1">&#10041;</div>
   		</div>
   		<div id="moon"></div>
 	</label>
