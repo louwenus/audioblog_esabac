@@ -14,10 +14,6 @@ a {color:blue;}
 body {margin: 0;}
 #content {margin: 8px;}
 
-#bottom img {
-    margin: 0.5vw;
-}
-
 h1{
 	color:purple;
     text-align:center;
@@ -103,7 +99,7 @@ div.audio_container > input[type="radio"]:checked + label{cursor: default;}
     margin-top: 150px;
     /* position: fixed; 
     bottom: 0; */
-    width: 100%;
+    width: 99%;
     text-align: center;
     padding: 10px;
     background-color: violet;
